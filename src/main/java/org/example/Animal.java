@@ -33,6 +33,10 @@ public class Animal {
 
 
 
+        Animal animal = new Dog("Buddy");
+        animal.speak();
+        animal.fetch;
+
     }
 
     public Animal (String name) {
