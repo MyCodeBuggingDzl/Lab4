@@ -3,4 +3,6 @@ Part B
 The implementations executes because of the polymorphism.
 The variable are declared as Animal, and Java checks the object type at execution.
 
+Part C
 
+The array list can hold dog, cat & frogs because it's a "is-a" relationship.

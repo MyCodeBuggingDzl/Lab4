@@ -1,6 +1,8 @@
 package org.example;
 
 
+import java.util.ArrayList;
+
 public class Animal {
 
     private String name;
@@ -14,6 +16,22 @@ public class Animal {
         a1.speak();
         a2.speak();
         a3.speak();
+
+
+
+        ArrayList<Animal> animals = new ArrayList<>();
+
+        animals.add(new Dog("Buddy"));
+        animals.add(new Cat("Mittens"));
+        animals.add(new Frog("Kermit"));
+        animals.add(new Dog("Rex"));
+        animals.add(new Cat("Luna"));
+
+        for (Animal animal : animals) {
+            animal.speak();
+        }
+
+
 
     }
 
