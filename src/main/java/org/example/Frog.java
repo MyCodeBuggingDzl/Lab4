@@ -1,4 +1,4 @@
-import org.example.Animal;
+package org.example;
 
 public class Frog extends Animal {
 
@@ -15,9 +15,8 @@ public class Frog extends Animal {
     }
 
     @Override
-    public String speak() {
+    public void speak() {
         System.out.println(getName() + " says Ribbit");
-        return null;
     }
 
     public void jump() {

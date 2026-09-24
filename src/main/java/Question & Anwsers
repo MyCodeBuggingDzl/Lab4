@@ -1,0 +1,6 @@
+Part B
+
+The implementations executes because of the polymorphism.
+The variable are declared as Animal, and Java checks the object type at execution.
+
+

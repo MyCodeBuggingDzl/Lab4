@@ -1,10 +1,10 @@
-import org.example.Animal;
+package org.example;
 
 public class Dog extends Animal {
     public static void main(String[] args) {
 
      Dog d = new Dog("QIQI");
-     String talk = d.speak();
+     d.speak();
      d.fetch();
     }
 
@@ -13,9 +13,8 @@ public class Dog extends Animal {
     }
 
     @Override
-    public String speak() {
+    public void speak() {
         System.out.println(getName() + " say's Woof!");
-        return null;
     }
 
     public void fetch() {

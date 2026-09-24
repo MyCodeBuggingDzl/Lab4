@@ -7,6 +7,14 @@ public class Animal {
 
     public static void main(String[] args) {
 
+        Animal a1 = new Dog("Buddy");
+        Animal a2 = new Cat("Mittens");
+        Animal a3 = new Frog("Kermit");
+
+        a1.speak();
+        a2.speak();
+        a3.speak();
+
     }
 
     public Animal (String name) {
@@ -17,8 +25,7 @@ public class Animal {
         return name;
     }
 
-    public String speak() {
+    public void speak() {
         System.out.println(name);
-        return null;
     }
 }
