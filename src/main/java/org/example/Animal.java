@@ -37,6 +37,10 @@ public class Animal {
         animal.speak();
 //        animal.fetch;
 
+
+        Dog dog = new Dog("Buddy");
+        Animal anima1 = dog;
+        anima1.speak();
     }
 
     public Animal (String name) {

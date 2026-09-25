@@ -11,4 +11,12 @@ Part D
 
 animal.speak works because the reference type does not declare fetch, only speak.
 
+Part E
+
+1. 1 Object.
+2. Animal
+3. dog
+4. Yes
+
+In (Animal) dog, the cats is unnescessary because dog is a subclass of animal
 
