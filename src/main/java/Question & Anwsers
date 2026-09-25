@@ -6,3 +6,9 @@ The variable are declared as Animal, and Java checks the object type at executio
 Part C
 
 The array list can hold dog, cat & frogs because it's a "is-a" relationship.
+
+Part D
+
+animal.speak works because the reference type does not declare fetch, only speak.
+
+

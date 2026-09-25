@@ -35,7 +35,7 @@ public class Animal {
 
         Animal animal = new Dog("Buddy");
         animal.speak();
-        animal.fetch;
+//        animal.fetch;
 
     }
 
