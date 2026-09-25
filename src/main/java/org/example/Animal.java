@@ -33,14 +33,19 @@ public class Animal {
 
 
 
-        Animal animal = new Dog("Buddy");
+        Animal animal = new Dog("BuddyD");
         animal.speak();
 //        animal.fetch;
 
 
-        Dog dog = new Dog("Buddy");
+        Dog dog = new Dog("BuddyE");
         Animal anima1 = dog;
         anima1.speak();
+
+
+        Animal animal1 = new Dog("BuddyF");
+        Dog dog1 = (Dog) animal1;
+        dog1.fetch();
     }
 
     public Animal (String name) {
