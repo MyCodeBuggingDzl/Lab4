@@ -61,6 +61,12 @@ public class Animal {
             Cat cat = (Cat) second;
             cat.scratch();
         }
+
+
+
+//        Animal animalH = new Cat("MittensH");
+//        Dog dogH = (Dog) animalH;
+//        dogH.fetch();
     }
 
     public Animal (String name) {
