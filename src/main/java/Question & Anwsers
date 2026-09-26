@@ -35,3 +35,10 @@ Part H
 It will be a ClassCastException. The compiler only checks the references type Animal. While
 Java check the objects type. In this case, dog is a subclass of Animal so u can downcast.
 However the object type is a Cat instead of a Dog.
+
+Part I
+
+It's because those animal in the call methods are Animals thats why it accepts.
+
+Part J
+

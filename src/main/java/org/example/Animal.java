@@ -67,6 +67,11 @@ public class Animal {
 //        Animal animalH = new Cat("MittensH");
 //        Dog dogH = (Dog) animalH;
 //        dogH.fetch();
+
+
+        makeAnimalSpeak(new Dog("Buddy"));
+        makeAnimalSpeak(new Cat("Mittens"));
+        makeAnimalSpeak(new Frog("Kermit"));
     }
 
     public Animal (String name) {
@@ -79,5 +84,9 @@ public class Animal {
 
     public void speak() {
         System.out.println(name);
+    }
+
+    public static void makeAnimalSpeak(Animal animal) {
+        animal.speak();
     }
 }
