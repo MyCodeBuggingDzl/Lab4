@@ -42,3 +42,5 @@ It's because those animal in the call methods are Animals thats why it accepts.
 
 Part J
 
+You'll only need 1 list instead of multiple.
+If a bird subclass is added, it'll automatically be accepted.

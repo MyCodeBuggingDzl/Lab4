@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Animal {
 
     private String name;
+    ArrayList<Animal> animals;
 
     public static void main(String[] args) {
 
@@ -89,4 +90,11 @@ public class Animal {
     public static void makeAnimalSpeak(Animal animal) {
         animal.speak();
     }
+
+    public static void makeAllAnimalsSpeak(ArrayList<Animal> animals) {
+        for (Animal animal: animals) {
+            animal.speak();
+        }
+    }
+
 }
