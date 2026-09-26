@@ -25,3 +25,7 @@ Part F
 1. Since the object was a subclass.
 2. No.
 3. dog.
+
+Part G
+
+instanceof checks the object type and not the reference type. If the object matches the class, it returns true;

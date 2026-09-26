@@ -46,6 +46,21 @@ public class Animal {
         Animal animal1 = new Dog("BuddyF");
         Dog dog1 = (Dog) animal1;
         dog1.fetch();
+
+
+
+
+        Animal first = new Dog("Buddy");
+        Animal second = new Cat("Mittens");
+
+        if (first instanceof Dog) {
+            Dog dog2 = (Dog) first;
+            dog2.fetch();
+        }
+        if (second instanceof Cat) {
+            Cat cat = (Cat) second;
+            cat.scratch();
+        }
     }
 
     public Animal (String name) {
